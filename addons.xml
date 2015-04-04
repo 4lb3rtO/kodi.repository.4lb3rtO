@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <addons><addon id="kodi.repository.4lb3rtO" name="4lb3rtO's Kodi Addons" provider-name="4lb3rtO" version="1.0.0">
   <extension name="4lb3rtO's Repository" point="xbmc.addon.repository">
     <info compressed="false">https://raw.githubusercontent.com/4lb3rtO/kodi.repository.4lb3rtO/master/addons.xml</info>
@@ -14,6 +15,8 @@
     <platform>all</platform>
     <website>http://4lb3rtO.github.io/kodi.repository.4lb3rtO</website>
 =======
+=======
+>>>>>>> gh-pages
 <addons><addon id="script.securitycams" name="Securitycams" provider-name="Homeserver, 4lb3rtO" version="1.0.4">
   <requires>
     <import addon="xbmc.python" version="2.19.0" />
@@ -80,7 +83,10 @@
     <website />
     <email>4lb3rtO@gmx.de</email>
     <source />
+<<<<<<< HEAD
 >>>>>>> 67d389277ba0b536f00de22cca94117a6b75089d
+=======
+>>>>>>> gh-pages
   </extension>
 </addon><addon id="script.securitycams" name="Securitycams" provider-name="Homeserver, 4lb3rtO" version="1.0.4">
   <requires>
