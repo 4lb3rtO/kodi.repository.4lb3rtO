@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="kodi.repository.4lb3rtO" name="4lb3rtO's Kodi Addons" version="1.0.0" provider-name="4lb3rtO">
+  <extension point="xbmc.addon.repository" name="4lb3rtO's Repository">
+    <info compressed="false">https://raw.githubusercontent.com/4lb3rtO/kodi.repository.4lb3rtO/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/4lb3rtO/kodi.repository.4lb3rtO/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/4lb3rtO/kodi.repository.4lb3rtO/master</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>4lb3rtO's Kodi Addons</summary>
+	<summary lang="de">4lb3rtO's Kodi Addons</summary>
+    <description>Website:[CR]http://4lb3rtO.github.io/kodi.repository.4lb3rtO[CR][CR]Download and install addons from 4lb3rtO's repository. Most of the addons in this repository are created and maintained by 4lb3rtO. Some add-ons are provided by others and merely hosted here for convenience.</description>
+	<description lang="de">Webseite:[CR]http://4lb3rtO.github.io/kodi.repository.4lb3rtO[CR][CR]Download and install addons from 4lb3rtO's repository. Most of the addons in this repository are created and maintained by 4lb3rtO. Some add-ons are provided by others and merely hosted here for convenience.</description>
+    <platform>all</platform>
+    <website>http://4lb3rtO.github.io/kodi.repository.4lb3rtO</website>
+  </extension>
+</addon>
