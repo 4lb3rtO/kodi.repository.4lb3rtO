@@ -1,6 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<<<<<<< HEAD
-<<<<<<< HEAD
 <addons><addon id="kodi.repository.4lb3rtO" name="4lb3rtO's Kodi Addons" provider-name="4lb3rtO" version="1.0.0">
   <extension name="4lb3rtO's Repository" point="xbmc.addon.repository">
     <info compressed="false">https://raw.githubusercontent.com/4lb3rtO/kodi.repository.4lb3rtO/master/addons.xml</info>
@@ -14,79 +12,6 @@
 	<description lang="de">Webseite:[CR]http://4lb3rtO.github.io/kodi.repository.4lb3rtO[CR][CR]Download and install addons from 4lb3rtO's repository. Most of the addons in this repository are created and maintained by 4lb3rtO. Some add-ons are provided by others and merely hosted here for convenience.</description>
     <platform>all</platform>
     <website>http://4lb3rtO.github.io/kodi.repository.4lb3rtO</website>
-=======
-=======
->>>>>>> gh-pages
-<addons><addon id="script.securitycams" name="Securitycams" provider-name="Homeserver, 4lb3rtO" version="1.0.4">
-  <requires>
-    <import addon="xbmc.python" version="2.19.0" />
-    <import addon="xbmc.gui" version="5.3.0" />
-    <import addon="xbmc.addon" version="14.0.0" />	
-    <import addon="script.module.pil" version="1.1.7" />
-  </requires>
-  <extension library="default.py" point="xbmc.python.script">
-    <provides>executable</provides>
-    <provides>image</provides>
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">    
-    <summary lang="en">Display 6 Security Cameras</summary>
-    <summary lang="de">Zeige 6 Sicherheitskameras an</summary>
-    <description lang="en">Display 6 Security Cameras</description>	
-    <description lang="de">Zeige 6 Sicherheitskameras an</description>
-  <platform>all</platform>
-  <language>en</language>
-  <language>de</language>
-  <license>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</license>
-    <forum />
-    <website />
-    <email />
-    <source />
-  </extension>
-</addon><addon id="service.idle.actions" name="IDLE Actions" provider-name="4lb3rtO" version="1.1.0">
-  <requires>
-    
-    <import addon="xbmc.python" version="2.19.0" />
-    <import addon="xbmc.gui" version="5.3.0" />
-    <import addon="xbmc.addon" version="14.0.0" />
-  </requires>
-  <extension library="default.py" point="xbmc.service" start="login" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Launch different actions when XBMC/Kodi isn't busy</summary>
-    <description lang="en">Service to launch different actions when XBMC/Kodi goes to idle-state or wakes up.[CR]You can define different actions for the on-idle and after-idle event.[CR][CR]Available actions:[CR]-Minimize[CR]-Quit[CR]-Powerdown[CR]-Hibernate[CR]-Suspend[CR]-RunScript[CR]-RunAppleScript[CR]-PlayMedia[CR]-SlideShow[CR]-RecursiveSlideShow[CR]-PlayDVD[CR]-System.Exec[CR]-System.ExecWait[CR]-UpdateLibrary[CR]-CleanLibrary[CR]-ActivateScreensaver</description>
-    <platform>all</platform>
-    <language>en</language>
-    <license>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</license>
-    <forum />
-    <website />
-    <email>4lb3rtO@gmx.de</email>
-    <source />
-  </extension>
-</addon><addon id="service.nfo.watchedstate.updater" name="NFO Watchedstate Updater" provider-name="4lb3rtO" version="1.1.1">
-  <requires>
-    
-    <import addon="xbmc.python" version="2.19.0" />	  
-    <import addon="xbmc.json" version="6.20.0" />
-    <import addon="xbmc.addon" version="14.0.0" />
-  </requires>
-  <extension library="default.py" point="xbmc.service" start="login" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Renewed your watchedstate in nfo files</summary>
-    <summary lang="de">Erneuert deinen watchedstate in den nfo Dateien</summary>
-    <description lang="en">Update your watchedstate in the nfo files as soon as this happens in the XBMC library.</description>
-    <description lang="de">Aktualisiert deinen watchedstate in den nfo Dateien, sobald dies in der XBMC Bibliothek geschieht.</description>
-    <platform>all</platform>
-    <language>en</language>
-    <language>de</language>
-    <license>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</license>
-    <forum />
-    <website />
-    <email>4lb3rtO@gmx.de</email>
-    <source />
-<<<<<<< HEAD
->>>>>>> 67d389277ba0b536f00de22cca94117a6b75089d
-=======
->>>>>>> gh-pages
   </extension>
 </addon><addon id="script.securitycams" name="Securitycams" provider-name="Homeserver, 4lb3rtO" version="1.0.4">
   <requires>
